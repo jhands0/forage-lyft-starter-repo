@@ -15,7 +15,7 @@ class CarFactory:
         wiloughby = WiloughbyEngine(last_service_mileage, current_mileage)
         spindler = SpindlerBattery(last_service_date, current_date)
         glissade = Car(wiloughby, spindler)
-        return  glissade
+        return glissade
 
     def create_palindrome(self, current_date, last_service_date, warning_lights_on):
         sternman = SternmanEngine(warning_lights_on)
