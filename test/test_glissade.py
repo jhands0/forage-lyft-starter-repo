@@ -5,5 +5,5 @@ from datetime import date
 Car1 = CarFactory()
 current = date.today()
 last = date(2021, 7, 5)
-car_obj = Car1.create_glissade(current, last, 31000, 30000)
+car_obj = Car1.create_glissade(current, last, 31000, 30000, [0.1, 0.1, 0.1, 0.1])
 print(car_obj.needs_service())

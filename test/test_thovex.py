@@ -6,5 +6,5 @@ from datetime import date
 Car1 = CarFactory()
 current = date.today()
 last = date.today()
-car_obj = Car1.create_thovex(current, last, 0, 0)
+car_obj = Car1.create_thovex(current, last, 0, 0, [0.80, 0.4, 0.30, 0.50])
 print(car_obj.needs_service())

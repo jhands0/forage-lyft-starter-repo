@@ -5,5 +5,5 @@ from datetime import date
 Car1 = CarFactory()
 current = date.today()
 last = date(2019, 4, 13)
-car_obj = Car1.create_calliope(current, last, 40000, 30000)
+car_obj = Car1.create_calliope(current, last, 40000, 30000, [0.50, 0.40, 0.11, 0.80])
 print(car_obj.needs_service())
